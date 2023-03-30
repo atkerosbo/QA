@@ -1,0 +1,200 @@
+{
+  "id": "083490bb-cd01-40e5-bc7d-4e907d5877ee",
+  "version": "2.0",
+  "name": "radiomarija",
+  "url": "https://radiomaria.nordweb1.in.rs",
+  "tests": [{
+    "id": "08755faa-72b3-46bd-b381-2051c78850a6",
+    "name": "Manu kliks",
+    "commands": [{
+      "id": "29959707-020b-4ebd-85e7-b02fde1c4cad",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84dd6863-8836-4f14-abfe-fe679fce0de2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1918x891",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c2d1333-c197-4ba9-8714-8233e66ec0bb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.main-menu__ul > li:nth-child(1) span",
+      "targets": [
+        ["css=.main-menu__ul > li:nth-child(1) span", "css:finder"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91745c08-3220-47a7-858d-8d89235ba975",
+      "comment": "",
+      "command": "click",
+      "target": "css=.main-menu__ul > .dropdown > .show > li:nth-child(1) > a",
+      "targets": [
+        ["css=.main-menu__ul > .dropdown > .show > li:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(@href, '/o-nama/')])[2]", "xpath:href"],
+        ["xpath=//li[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "205c10b2-5f85-41e5-b8a5-8e3486280acf",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.letters-container > div:nth-child(5)",
+      "targets": [
+        ["css=.letters-container > div:nth-child(5)", "css:finder"],
+        ["xpath=//div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1953ab8b-38cb-4f43-b2a5-322537f6f237",
+      "comment": "",
+      "command": "click",
+      "target": "css=.letters-container > div:nth-child(5)",
+      "targets": [
+        ["css=.letters-container > div:nth-child(5)", "css:finder"],
+        ["xpath=//div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44600d53-909c-4c7c-9526-86b13c06c721",
+      "comment": "",
+      "command": "click",
+      "target": "css=.main-menu__ul > li:nth-child(3) span",
+      "targets": [
+        ["css=.main-menu__ul > li:nth-child(3) span", "css:finder"],
+        ["xpath=//div/ul/li[3]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4a16a6f-ebe5-4930-a31c-34df5eaaf97f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.letters-container",
+      "targets": [
+        ["css=.letters-container", "css:finder"],
+        ["xpath=//a[contains(@href, '/donirajte/')]", "xpath:href"],
+        ["xpath=//body/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b68b899f-eb59-4b22-b6c4-456373318ce8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.main-menu__ul > li:nth-child(4) span",
+      "targets": [
+        ["css=.main-menu__ul > li:nth-child(4) span", "css:finder"],
+        ["xpath=//div/ul/li[4]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f67cfdf3-aa71-4943-adac-eac38b676465",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Saznajte vise",
+      "targets": [
+        ["linkText=Saznajte vise", "linkText"],
+        ["css=.box-shadows .button", "css:finder"],
+        ["xpath=//a[contains(@href, '/nase-obavijesti/obavijest-2/')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Saznajte vise')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee3c6a69-0920-490c-98ee-b9dd6ef22684",
+      "comment": "",
+      "command": "click",
+      "target": "css=.letters-container > div:nth-child(5)",
+      "targets": [
+        ["css=.letters-container > div:nth-child(5)", "css:finder"],
+        ["xpath=//div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e60359f5-2ff7-4dcd-8332-b382a97c6d94",
+      "comment": "",
+      "command": "click",
+      "target": "css=.main-menu__ul > li:nth-child(5) span",
+      "targets": [
+        ["css=.main-menu__ul > li:nth-child(5) span", "css:finder"],
+        ["xpath=//div/ul/li[5]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "430365fc-315f-4f0e-9c94-b81e260b3248",
+      "comment": "",
+      "command": "click",
+      "target": "css=.editor:nth-child(2) .lazyloaded",
+      "targets": [
+        ["css=.editor:nth-child(2) .lazyloaded", "css:finder"],
+        ["xpath=//img[@alt='Ime Prezime']", "xpath:img"],
+        ["xpath=//div[2]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bcfe6369-3b02-4289-946e-a583590ae652",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fancybox-slide",
+      "targets": [
+        ["css=.fancybox-slide", "css:finder"],
+        ["xpath=//div[@id='fancybox-container-1']/div[2]/div[4]/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "880587be-56d6-458d-87bd-ec5012946580",
+      "comment": "",
+      "command": "click",
+      "target": "css=.letters-container > div:nth-child(5)",
+      "targets": [
+        ["css=.letters-container > div:nth-child(5)", "css:finder"],
+        ["xpath=//div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2de3cf1-e62d-457c-a6b4-d332639dbba4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.main-menu__ul > li:nth-child(7) span",
+      "targets": [
+        ["css=.main-menu__ul > li:nth-child(7) span", "css:finder"],
+        ["xpath=//div/ul/li[7]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b3b2da9-2be6-47dc-b40e-7b4e18f92346",
+      "comment": "",
+      "command": "click",
+      "target": "css=.letters-container",
+      "targets": [
+        ["css=.letters-container", "css:finder"],
+        ["xpath=//a[contains(@href, '/donirajte/')]", "xpath:href"],
+        ["xpath=//body/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d04caa04-86b0-45b4-bae6-b740b774bea7",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1dcf2193-c680-4f6b-9dbd-db363b2c9ba8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["08755faa-72b3-46bd-b381-2051c78850a6"]
+  }],
+  "urls": ["https://radiomaria.nordweb1.in.rs/"],
+  "plugins": []
+}
