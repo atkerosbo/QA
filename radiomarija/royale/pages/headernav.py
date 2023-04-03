@@ -6,7 +6,7 @@ class HeaderNav:
 
     def goto_cards_page(self):
         self.map.cards_link.click()
-class HeaderNavMap
+class HeaderNavMap:
     def __int__(self,driver):
         self._driver = driver
 
