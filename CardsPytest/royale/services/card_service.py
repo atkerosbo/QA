@@ -1,0 +1,23 @@
+#list all the cards
+from typing import List
+
+import requests
+
+from royale.models.card import Card
+
+
+def get_all_cards()->List[Card]:
+    response = requests.get('https://statsroyale.com/api.cards')
+    if response.ok:
+        return [Card(**card) for card in response.json()]
+    else:
+        raise Exception('Response was not ok. Status code : '+ response.status_code)
+
+
+
+
+# get a card
+
+def get_card_by_name(card_name:str)->Card:
+    cards = get_all_cards()
+    return next(card for card in cards if card.name == card_name)
