@@ -16,3 +16,44 @@ class TreeNode:
                 self.right = TreeNode(value)
             else:
                 self.right.insert(value)
+
+
+    def inorder_traversal(self):
+        if self.left:
+            self.left.inorder_traversal()
+        print(self.value)
+        if self.right:
+            self.right.inorder_traversal()
+
+
+
+    def find(self,value):
+        if value < self.value:
+            if self.left is None:
+                return False
+            else:
+                return self.left.find(value)
+        elif value > self.value:
+            if self.right is None:
+                return False
+            else:
+                return self.right.find(value)
+        else:
+            return True
+
+
+tree = TreeNode(6)
+tree.insert(5)
+tree.insert(2)
+tree.insert(4)
+tree.insert(1)
+tree.insert(2)
+tree.insert(19)
+tree.insert(29)
+tree.insert(11)
+tree.insert(4)
+tree.insert(2)
+
+tree.inorder_traversal()
+
+print(tree.find(19))
